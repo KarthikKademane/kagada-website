@@ -1,0 +1,399 @@
+/* @import url('http://fonts.cdnfonts.com/css/samarkan'); */
+
+@font-face {
+  src: url(fonts/samman.ttf);
+  font-family: samman;
+}
+
+#kagadhafont{
+  font-family: samman;
+}
+
+
+body{
+  overflow-x: hidden;
+}
+
+#youtube{
+  width:600px;
+  height:500px;
+}
+
+#frontPage{
+  background-color: #E8DCAC;
+  height: 100vh;
+  width: 100vw;
+}
+
+#aboutUVCE{
+  margin: 80px 0;
+  padding: 0 300px;
+}
+
+#aboutIEEEUVCE{
+
+  padding: 80px 300px;
+  background-color: #E8DCAC;
+}
+
+
+#anchortag{
+  text-decoration: none;
+  color: black;
+}
+
+#val{
+  text-align: center;
+}
+
+
+
+#sponser{
+  padding: 80px 0;
+}
+
+#kagadha{
+    margin: 80px 0;
+    padding: 0 300px;
+}
+
+
+#galleryimage {
+  width: 50px;
+}
+
+.galleryphoto {
+  width: 700px;
+  padding: 10px 0 80px;
+}
+
+
+#gallery{
+  background-color: #E8DCAC;
+  text-align: center;
+}
+
+#centerimg{
+  text-align: center;
+}
+
+#contact{
+  background-color: #E8DCAC;
+  text-align: center;
+}
+
+#kagadhafirst{
+  text-align: center;
+  font-size: 110px;
+  margin-top: 150px;
+font-family: samman;
+}
+
+#registerbutton{
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+
+#registerbutton1{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+#galleryimg{
+  width: 60%;
+  text-align: center;
+}
+
+
+#buttcol{
+  background-color: #FFCC99;
+}
+
+#buttcol:hover{
+  background-color: #E8BEAC;
+}
+
+#name{
+  padding-bottom: 50px;
+  text-align: center;
+  font-family: 'Scheherazade New', serif;
+  font-size: 40px;
+}
+
+#names{
+  font-family: samman;
+  text-align: center;
+  font-size: 65px;
+  padding-bottom: 40px;
+}
+
+.container{
+  text-align:justify;
+  line-height: 2;
+}
+
+/* sponser */
+#sponser .card {
+  position: relative;
+  display: flex;
+  align-items: space-around;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1),
+    0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1),
+    0 16px 16px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 360px) {
+  #sponser .card {
+    height: 250px;
+    width: 350px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 360px) {
+  #sponser .card {
+    margin-bottom: 25px;
+  }
+}
+
+
+.flexrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#sponser .card:nth-child(1) {
+  background-image: url(gallery1.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sponser .card:nth-child(2) {
+  background-image: url(gallery2.png);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top 40% left 1%;
+}
+
+#sponser .card:nth-child(3) {
+  background-image: url();
+  background-size: 80% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+/* footer */
+.content1 {
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.content1 .text {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.content1 .p {
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+textarea.form-control {
+  height: 10rem;
+}
+
+footer {
+  bottom: 0px;
+  width: 100%;
+  background: linear-gradient(180deg, rgb(35, 61, 59), rgb(6, 222, 238));
+  color: #ffff;
+}
+.main-content {
+  display: flex;
+}
+.main-content .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before {
+  position: absolute;
+  content: "";
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #ffff;
+}
+
+.left .content p {
+  text-align: justify;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0 2px;
+}
+.left .content .social a span {
+  height: 500px;
+  width: 500px;
+  background: #ffff;
+  line-height: 100px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 3px;
+  transition: 0.3s;
+  padding: 3px 3px;
+  color: #151515;
+}
+.left .content .social a span:hover {
+  background: #0000;
+  color: #0c3c53;
+}
+.center .content .bi {
+  font-size: 1.4375rem;
+  background: #ffff;
+  height: 65px;
+  width: 65px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 2px;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 3px 3px;
+  color: #151515;
+}
+.center .content .bi:hover {
+  background: #0000;
+  color: #0c3c53;
+}
+.center .content .text {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone {
+  margin: 15px 0;
+  color: #fff;
+}
+
+.bottom center {
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span {
+  color: #656565;
+}
+.bottom center a {
+  color: #ffff;
+  text-decoration: none;
+}
+.bottom center a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer {
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box {
+    margin: 5px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  /* .btn.btn-dark {
+  } */
+  button#itscorrect.btn:not(:disabled):not(.disabled) {
+
+    margin-bottom: 45px;
+  }
+}
+
+#paragraph{
+  font-family: 'Scheherazade New', serif;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 760px){
+  #aboutUVCE{
+    margin: 80px 0;
+    padding: 0 10px;
+  }
+
+  #aboutIEEEUVCE{
+    margin: 80px 0;
+    padding: 0 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #kagadha{
+    margin: 80px 0;
+    padding: 0 10px;
+  }
+
+  #val{
+    padding-bottom: 50px;
+  }
+
+  #kagadhafirst{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 60px;
+  font-family: samman;
+  }
+
+  #registerbutton{
+    text-align: center;
+    margin-top: 50px;
+
+  }
+
+  #paragraph{
+    font-family: 'Scheherazade New', serif;
+    font-size: 15px;
+  }
+
+  #youtube{
+    width:380px;
+    height:350px;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+  .galleryphoto {
+    width: 450px;
+    padding: 10px 0 80px;
+  }
+
+  #names{
+    font-family: samman;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 40px;
+  }
+
+}
