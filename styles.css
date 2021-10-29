@@ -98,7 +98,7 @@ html{
   font-size: 10vw;
   width:48vw;
   margin-right: -2vw;
-  margin-top: 14vh;
+  margin-top: 12vh;
 font-family: samman;
 color:#ffff;
 
@@ -423,8 +423,8 @@ footer {
   }
 
   #youtube{
-    width: 400px;
-    height: 320px;
+    width: 380px;
+    height: 250px;
     text-align: center;
     margin-top: 10vh;
   }
