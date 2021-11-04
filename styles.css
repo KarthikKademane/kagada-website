@@ -348,6 +348,10 @@ footer {
 @media screen and (max-width: 575px) {
   /* .btn.btn-dark {
   } */
+  .btn
+  {
+    margin-bottom : -10px;
+  }
   body{
     overflow-x: hidden;
   }
